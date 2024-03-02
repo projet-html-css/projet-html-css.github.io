@@ -1,0 +1,167 @@
+body {
+    background-size: 100% 100%;
+}
+
+.baniere {
+    background-image: url(https://i.pinimg.com/564x/e5/04/8a/e5048a1c5de24b76e51fd2b45ccba858.jpg);
+    background-repeat: no-repeat;
+    position: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: px;
+    top: 85px;
+}
+
+#menu {
+    font-size: large;
+    height: 70px;
+    width: 1500px;
+    background-color: aliceblue;
+}
+
+#menu ul>li {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 6%;
+    line-height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(100, 19, 19);
+    padding-top: 1%;
+}
+
+li a:hover {
+    color: rgb(255, 77, 0);
+}
+
+ul li a {
+    color: red;
+    text-decoration: none;
+}
+
+.my {
+    color: white;
+    margin-top: 15%;
+    padding-left: 25%;
+    font-size: 120px;
+    display: block;
+    position: relative;
+}
+
+.my9 {
+    position: relative;
+    top: 600px;
+    background-image: url(https://i.pinimg.com/564x/b0/78/06/b07806d206ecfaac068d8e7ed4a10f62.jpg);
+    background-size: cover;
+    height: 2300px;
+}
+
+.imagee {
+    padding-right: 5%;
+    padding-top: 3%;
+}
+
+.image1 .my2 {
+    text-align: justify;
+    color: beige;
+    float: left;
+    width: 45%;
+    height: 650px;
+    margin-right: 5%;
+    font-size: 35px;
+    padding-top: 1%;
+}
+
+.my1 {
+    padding-left: 3%;
+}
+
+.my3 {
+    margin-top: 5%;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.my4 h1 {
+    float: right;
+    padding-right: 10%;
+}
+
+.my3 .my4 p {
+    text-align: justify;
+    color: beige;
+    float: left;
+    width: 45%;
+    height: 650px;
+    margin-right: 5%;
+    font-size: 35px;
+    padding-top: 1%;
+}
+
+.change {
+    /*margin: 0 auto;*/
+    flex: 1 0 auto;
+    width: 200vh;
+    background-size: 35% 100%;
+    height: 600px;
+    /*border: 3px solid rgb(255, 255, 255);*/
+    background-repeat: no-repeat;
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f9/4a/greece.jpg?w=500&h=400&s=1);
+    -webkit-animation-name: diapo;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -moz-animation-name: diapo;
+    -moz-animation-duration: 30s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    animation-name: diapo;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    margin-top: 20%;
+}
+
+@-webkit-keyframes diapo {
+    0% {
+        background-image: url(https://i.pinimg.com/564x/03/03/c4/0303c4f5add6140c05f86ff0dcd6485e.jpg);
+    }
+    25% {
+        background-image: url(https://i.pinimg.com/564x/72/90/9e/72909ed003bdf592ecf0415b4ac1ae19.jpg);
+    }
+    50% {
+        background-image: url(https://i.pinimg.com/564x/29/00/c1/2900c1d96eb7300f60212c4d65d6d137.jpg);
+    }
+    75% {
+        background-image: url(https://i.pinimg.com/564x/ab/24/64/ab24645864e2cff47d97cb396f9c4ab1.jpg);
+    }
+}
+
+.my6 h1 {
+    padding-left: 5%;
+}
+
+.my6 p {
+    font-size: 30px;
+    color: beige;
+    text-align: left;
+}
+
+.my7 {
+    margin-top: 10%;
+    float: left;
+}
+
+.imageee {
+    padding-right: 5%;
+    padding-top: 3%;
+    float: top;
+}

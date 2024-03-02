@@ -1,0 +1,90 @@
+#principal {
+    color: azure;
+    background-size: 100%;
+    width: 1350px;
+    height: 100px;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 100% 100%;
+    padding-top: 15%;
+}
+
+#principal>#entete>h1 {
+    font-size: 20px;
+}
+
+#principal>#entete>header {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#entete {
+    width: 1000px;
+    margin-left: 10%;
+    padding-left: 10%;
+    font-size: 70px;
+    color: rgb(23, 17, 28);
+    animation: typing-animation 2s steps(25);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes typing-animation {
+    from {
+        width: 0;
+    }
+}
+
+#menu {
+    font-size: large;
+    height: 70px;
+    width: 1500px;
+    background-color: white;
+}
+
+#menu ul>li {
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 7%;
+    line-height: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: brown;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(45, 7, 7);
+}
+
+li :hover {
+    color: rgb(255, 77, 0);
+    background-size: 100px;
+}
+
+.slider {
+    background: url(https://static8.depositphotos.com/1134101/881/i/450/depositphotos_8813230-stock-photo-atlantis-hotel-illuminated-at-night.jpg);
+    animation: slide 20s infinite;
+}
+
+@keyframes slide {
+    0% {
+        background: url(https://media.timeout.com/images/106025742/image.jpg);
+    }
+    25% {
+        background: url(https://www.gotokyo.org/fr/plan/tokyo-outline/images/main.jpg);
+    }
+    50% {
+        background: url(https://a.cdn-hotels.com/gdcs/production193/d1507/31b1801a-2519-4306-bf62-1f9ec3279cf6.jpg);
+    }
+    75% {
+        background: url(https://www.elevatebali.com/storage/8Ekg79L7uQKTbmkycZwD8g7IIv9JT2-metaNjM1YTI2MTI5YjA2ODcxMjc5NTM4MS5qcGc=-.jpg);
+    }
+    100% {
+        background: url(https://a.cdn-hotels.com/gdcs/production193/d1507/31b1801a-2519-4306-bf62-1f9ec3279cf6.jpg);
+    }
+}
+
+
+}
